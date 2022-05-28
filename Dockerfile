@@ -8,6 +8,10 @@ ADD Sound/ /usr/app/Sound
 COPY snake.py .
 COPY requirements.txt .
 
+RUN apt update
+RUN ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+RUN DEBIAN_FRONTEND=noninteractive apt install -y tzdata
+RUN apt install -y libsdl2-2.0-0
 RUN pip install --no-cache-dir -r requirements.txt
 
 CMD [ "python", "./snake.py" ]
