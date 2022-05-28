@@ -17,3 +17,5 @@ Docker image container for a game called snake game.
 2. Then check the image using, docker images
 3. Run the image container using, docker run -it docker_snake
 4. Play and enjoy the game :)
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/HL0Uiv81EFc/0.jpg)](https://www.youtube.com/watch?v=HL0Uiv81EFc)
