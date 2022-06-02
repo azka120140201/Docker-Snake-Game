@@ -7,7 +7,7 @@
 - Ferawati Manurung (120140196)
 
 # Docker Snake Game
-A snake game is a simple game where a snake moves around a box/wall trying to eat a fruit. Once it succesfully eats the fruit, the length of the snake increases.
+A snake game is a simple game where a snake moves around a box/wall trying to eat a fruit. Once it succesfully eats the fruit, the length of the snake increases.the snake must avoid its tail.
 
 # Program Description
 Docker image container for a game called snake game.
